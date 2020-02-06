@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoTest]">
+  <test thread-count="5" name="testngTest(failed)">
+    <classes>
+      <class name="Assignment.Demo.PriceCheck">
+        <methods>
+          <include name="closedriver"/>
+          <include name="gettingIphonePriceFromFlipkart"/>
+        </methods>
+      </class> <!-- Assignment.Demo.PriceCheck -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [DemoTest] -->

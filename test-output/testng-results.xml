@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-06T23:36:27 IST" name="DemoTest" finished-at="2020-02-06T23:36:51 IST" duration-ms="23871">
+    <groups>
+    </groups>
+    <test started-at="2020-02-06T23:36:27 IST" name="testngTest" finished-at="2020-02-06T23:36:51 IST" duration-ms="23871">
+      <class name="Assignment.Demo.PriceCheck">
+        <test-method signature="gettingIphonePriceFromAmazon()[pri:0, instance:Assignment.Demo.PriceCheck@6058e535]" started-at="2020-02-06T23:36:27 IST" name="gettingIphonePriceFromAmazon" finished-at="2020-02-06T23:36:43 IST" duration-ms="16276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingIphonePriceFromAmazon -->
+        <test-method signature="gettingIphonePriceFromFlipkart()[pri:1, instance:Assignment.Demo.PriceCheck@6058e535]" started-at="2020-02-06T23:36:43 IST" name="gettingIphonePriceFromFlipkart" finished-at="2020-02-06T23:36:51 IST" duration-ms="7567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingIphonePriceFromFlipkart -->
+        <test-method signature="comparingIphonePriceAndDisplyingResult()[pri:2, instance:Assignment.Demo.PriceCheck@6058e535]" started-at="2020-02-06T23:36:51 IST" name="comparingIphonePriceAndDisplyingResult" finished-at="2020-02-06T23:36:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comparingIphonePriceAndDisplyingResult -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:Assignment.Demo.PriceCheck@6058e535]" started-at="2020-02-06T23:36:51 IST" name="closedriver" finished-at="2020-02-06T23:36:55 IST" duration-ms="4313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- Assignment.Demo.PriceCheck -->
+    </test> <!-- testngTest -->
+  </suite> <!-- DemoTest -->
+</testng-results>
