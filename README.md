@@ -3,9 +3,9 @@
 
 Following are used
 1. selenium
-2.maven
-3.webdriver manager
-4.Test NG
+2. maven
+3. webdriver manager
+4. Test NG
 5. Page Object Model
 6. Java Language
 
