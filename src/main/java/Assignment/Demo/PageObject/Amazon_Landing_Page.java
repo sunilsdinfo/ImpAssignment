@@ -2,6 +2,8 @@
  * */
 package Assignment.Demo.PageObject;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -18,8 +20,9 @@ public class Amazon_Landing_Page {
       *  Input Parameter =N/A
       */
     public  static void sendTextToSearchBox(){
-
-        driver.findElement(searchBoxID).sendKeys("iPhone XR (64GB) - Yellow");
+    	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	String text=Utilities.getMessage("textToSearch");
+        driver.findElement(searchBoxID).sendKeys(text);
 
     };
     /*  Function Name: clickOnSearchButton

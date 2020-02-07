@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import Assignment.Demo.PageObject.Amazon_Landing_Page;
@@ -20,6 +21,12 @@ public class PriceCheck {
 	 int pricefromamazon=0;
 	 int pricefromflipcart=0;
 	 
+	 @BeforeSuite
+	 public void launchdriver()
+	 {
+		 driver.manage().window().maximize();
+		 
+	 };
 	 @AfterSuite
 	 public void closedriver()
 	 {
@@ -29,7 +36,7 @@ public class PriceCheck {
 	 
   @Test(priority=0)
   public void gettingIphonePriceFromAmazon() {
-	  driver.manage().window().maximize();
+	 
 	  driver.get("https://www.amazon.in");
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  Amazon_Landing_Page.sendTextToSearchBox();
